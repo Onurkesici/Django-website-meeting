@@ -1,0 +1,108 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block content %}
+    <!-- HEADDER-START -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-circle">
+                <span class="circle circle-1"></span>
+                <span class="circle circle-2"></span>
+            </div>
+            <h2>meet</h2>
+        </div>
+    </header>
+    <!-- HEADER-FINISH -->
+
+    <!-- ABOUT-START -->
+    <div class="about">
+        <div class="about-picture picture-1">
+            <div class="col-1">
+                <img src="{% static 'img/kare.jpg' %}" alt="">
+                <img src="{% static 'img/kare2.jpg' %}" alt="">
+            </div>
+            <div class="col-2">
+                <img src="{% static 'img/kare3.jpg' %}" alt="">
+                <img src="{% static 'img/kare4.jpg' %}" alt="">
+            </div>
+            <div class="col-3">
+                <img src="{% static 'img/kare5.jpg' %}" alt="">
+                <img src="{% static 'img/kare6.jpg' %}" alt="">
+            </div>
+        </div>
+        <div class="about-info">
+            <h1>Group Chat <br> for Everyone</h1>
+            <p>
+                Meet makes it easy to connect with others face-to-face virtually and collaborate across and device.
+            </p>
+            <div class="btn">
+                <a href="#" class="btn-1">Download <span>v1.3</span></a>
+                <a href="#" class="btn-2">What is it?</a>
+            </div>
+        </div>
+        <div class="about-picture picture-2">
+            <div class="col-4">
+                <img src="{% static 'img/kare7.jpg' %}" alt="">
+                <img src="{% static 'img/kare8.jpg' %}" alt="">
+            </div>
+            <div class="col-5">
+                <img src="{% static 'img/kare9.jpg' %}" alt="">
+                <img src="{% static 'img/kare10.jpg' %}" alt="">
+            </div>
+            <div class="col-6">
+                <img src="{% static 'img/kare11.jpg' %}" alt="">
+                <img src="{% static 'img/kare12.jpg' %}" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT-FINISH -->
+
+    <!-- LINE-START -->
+    <div class="line">
+        <span class="limit"></span>
+        <span class="line-circle">01</span>
+    </div>
+    <!-- LINE-FINISH -->
+    
+    <!-- CONTENT-START -->
+    <div class="container">
+        <div class="content">
+            <img src="{% static 'img/container1.jpg' %}" alt="">
+            <img src="{% static 'img/container2.jpg' %}" alt="">
+            <img src="{% static 'img/container3.jpg' %}" alt="">
+            <img src="{% static 'img/container4.jpg' %}" alt="">
+        </div>
+        <div class="information">
+            <h4>BUILD FOR MODERN USE</h4>
+            <h2>Smarter meetings, all <br> in one place</h2>
+            <p>
+                Send messages, share files, swoh your screen, and record your <br>
+                meetings - all in one workspace. Control who can join with invite- <br>
+                only team access, data encrytion, and data export.
+            </p>
+        </div>
+    </div>
+    <!-- CONTENT-FINISH -->
+
+    <!-- LINE-START -->
+    <div class="line">
+        <span class="limit"></span>
+        <span class="line-circle">02</span>
+    </div>
+    <!-- LINE-FINISH -->
+
+    
+    <!-- FOOTER-START -->
+    <footer class="footer">
+        <div class="footer-picture"></div>
+        <div class="footer-info">
+            <h4>Experience more <br> together</h4>
+            <p>
+                Stay connecte reliable HD meetings <br>
+                and unlimited one-on-one and group viedo sessions.
+            </p>
+            <a href="#">Download <span>v1.3</span></a>
+        </div>
+    </footer>
+    <!-- FOOTER-FINISH -->  
+{% endblock %}
